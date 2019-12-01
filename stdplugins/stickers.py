@@ -44,7 +44,7 @@ async def _(event):
 
     me = borg.me
     userid = event.from_id
-    packname = f"@iSawJig 's @UniBorg Pack"
+    packname = f"@iSawJig 's KangTheKanger Pack"
     packshortname = f"Id_750876551"  # format: Uni_Borg_userid
 
     is_a_s = is_it_animated_sticker(reply_message)
@@ -116,7 +116,7 @@ async def _(event):
             await silently_send_message(bot_conv, sticker_emoji)
             await silently_send_message(bot_conv, "/done")
 
-    await event.edit(f"sticker added! Your pack can be found [here](t.me/addstickers/{packshortname})")
+    await event.edit(f"▕╮╭┻┻╮╭┻┻╮╭▕╮╲\n▕╯┃╭╮┃┃╭╮┃╰▕╯╭▏\n▕╭┻┻┻┛┗┻┻┛   ▕  ╰▏\n▕╰━━━┓┈┈┈╭╮▕╭╮▏\n▕╭╮╰┳┳┳┳╯╰╯▕╰╯▏\n▕╰╯┈┗┛┗┛┈╭╮▕╮┈▏\n\n[Sticker looted!](t.me/addstickers/{packshortname})")
 
 
 @borg.on(admin_cmd(pattern="packinfo"))
